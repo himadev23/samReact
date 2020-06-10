@@ -1,0 +1,42 @@
+[
+    {
+      "id":1,
+      "name":"Widget 1",
+      "capacity":"100lb",
+      "weight":"150lb",
+      "dimensions":"1x2x3",
+      "price":"$500",
+      "imageURL":"https://slimages.macysassets.com/is/image/MCY/products/8/optimized/15654848_fpx.tif?$browse$&wid=319&fmt=webp",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      "id":2,
+      "name":"Widget 2",
+      "capacity":"200lb",
+      "weight":"250lb",
+      "dimensions":"2x3x4",
+      "price":"$800",
+      "imageURL":"https://slimages.macysassets.com/is/image/MCY/products/4/optimized/16695214_fpx.tif?$browse$&wid=319&fmt=webp",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id":3,
+      "name":"Widget 3",
+      "capacity":"300lb",
+      "weight":"350lb",
+      "dimensions":"3x2x1",
+      "price":"$1500",
+      "imageURL":"https://slimages.macysassets.com/is/image/MCY/products/9/optimized/15656049_fpx.tif?$browse$&wid=319&fmt=webp",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id":4,
+      "name":"Widget 4",
+      "capacity":"400lb",
+      "weight":"450lb",
+      "dimensions":"4x2x3",
+      "price":"$2000",
+      "imageURL":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/16109473_fpx.tif?$browse$&wid=319&fmt=webp",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }
+]

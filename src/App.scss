@@ -1,0 +1,127 @@
+$headerBackgroundColor :#4a90e2;
+$productBackGroundColor: #f9f9f9;
+$productInfoBackGroundColor:red;
+$productdivBGColor:#d8d8d8;
+$textcolor:#3e3e3e;
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  color: $textcolor;
+}
+
+
+#header{
+  background-color: $headerBackgroundColor;
+  padding: 10px 20px;
+}
+#appTitle,.userIcon{
+  display: inline-block;
+}
+
+.searchDiv{
+  box-shadow: 5px;
+  margin: 10px 20px;
+  position: relative;
+}
+.productContainer{
+  margin: 10px 20px;
+  display: flex;  
+}
+
+.productDetails{
+  border: 1px solid #ced4da;
+  padding: 10px;;
+  height: 100%;
+  width: 80%;
+  border-radius: .25rem;
+}
+h2.ProdName{
+display: inline-block;
+}
+.products {
+ // display: flex;
+  flex-direction: column;
+  /* border: rebeccapurple 1px solid; */
+  width: 20%;
+  height: 100%;
+  margin-right: 10px;
+  
+}
+
+div.widget {
+  background-color: $productBackGroundColor ;
+  margin: 0px 0 10px 0;
+  cursor:pointer;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  position: relative;
+}
+div.widget.active{
+  border:1px solid #4a90e2;
+}
+.rightArrow{
+  font-size:30px;
+  text-decoration:bold;
+  float:right;
+  position: absolute;
+  right:10px;
+  top:10px
+}
+
+#prodName,.addCartIcon{
+ /* padding: 20px;*/
+  margin: 5px; 
+  display: inline-block;
+  
+}
+.addCartIcon{
+  /* margin-right: 10px; */
+  /* margin-top:0px; */
+  
+}
+
+#prod-div{
+  //width: 40%;
+  text-align: center;
+  border:$productdivBGColor 1px solid;
+  margin: 0 auto;
+}
+hr{
+  margin: 20px;
+}
+.specs{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.specs> div {
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .productContainer{
+    display: inline-block;
+    width: 95%;
+    margin:10px;
+  }  
+  .products {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+ }
+ div.widget{
+   margin-right: 5px;
+ }
+ .productDetails{
+  width: auto;
+ }
+ .rightArrow{
+   display: none;
+ }
+}
